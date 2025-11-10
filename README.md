@@ -1,3 +1,129 @@
+ 🏪 Customer Segmentation using K-Means Clustering
+
+📖 Project Overview
+Imagine a crowded shopping mall filled with different kinds of customers — families, students, professionals, and trend-seekers.  
+Each customer shops differently — some spend big, some browse, and some look for deals.  
+
+This project uses *K-Means Clustering* to segment mall customers based on their *Annual Income* and *Spending Score*, helping businesses understand consumer behavior and make data-driven marketing decisions.
+
+
+ 🎯 Objective
+To identify and visualize distinct customer groups using clustering techniques, allowing the mall management to:
+- Personalize marketing strategies  
+- Design better offers for each group  
+- Improve customer satisfaction  
+
+ 🧩 Dataset
+The dataset contains information about customers visiting the mall.  
+| Feature | Description |
+| CustomerID | Unique ID for each customer |
+| Gender | Male/Female |
+| Age | Age of the customer |
+| Annual Income (k$) | Estimated annual income |
+| Spending Score (1–100) | Score assigned based on spending behavior |
+
+
+
+⚙ Methodology
+
+# Step 1: Data Preprocessing
+- Cleaned and prepared data for clustering  
+- Selected relevant features: Annual Income and Spending Score
+
+# Step 2: Finding Optimal Clusters
+- Used the Elbow Method to find the best value of K  
+- Optimal number of clusters found: K = 5
+
+# Step 3: Applying K-Means
+- Implemented K-Means algorithm to group similar customers  
+
+
+🧠 Insights from Clusters
+| Cluster | Description | Example Behavior |
+
+| 👑 *Luxury Lovers* | High income, high spending | Prefer premium brands |
+| 💼 *Potential Buyers* | High income, low spending | Spend cautiously |
+| 😊 *Regular Shoppers* | Average income and spending | Consistent visitors |
+| 🛍 *Budget Savers* | Low income, low spending | Price-conscious |
+| 🎉 *Young Spenders* | Low income, high spending | Trend-driven youth |
+
+
+📊 Live Dashboard
+We created an *interactive dashboard* showcasing:
+- Cluster visualizations  
+- Average income and spending score per cluster  
+- Insights for targeted business strategies  
+
+The dashboard helps mall management *see patterns in real time* and make smarter, data-driven decisions.
+
+
+🧮 Technologies Used
+-tailwind css
+- next.js
+- Python 
+- Pandas & NumPy for data handling  
+- Matplotlib & Seaborn for visualization  
+- Scikit-learn for implementing K-Means  
+
+💡 Conclusion
+K-Means Clustering transformed a chaotic mall crowd into *five clear customer segments*.  
+By understanding each group’s behavior, the mall can now tailor its marketing, pricing, and product placement effectively.  
+This is how data turns *observation into opportunity.
+
+👩‍💻 Team Members
+- Prathyusha Reddy
+- Reeena Akshaya
+- Shreya Keshri
+- Bhavya Khare
+- Sima Kumari
+
+-  📅 Project Category
+Machine Learning | Customer Segmentation | Data Analytics
+
+> “From chaos to clarity — data helps us see people, not just numbers.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
