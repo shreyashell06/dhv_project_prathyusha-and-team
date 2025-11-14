@@ -76,6 +76,10 @@ This is how data turns *observation into opportunity.
 - Shreya Keshri
 - Bhavya Khare
 - Sima Kumari
+![dhv1](https://github.com/user-attachments/assets/e48ce0a1-41a9-465a-a7d9-c2a85506c48c)
+![dhv4](https://github.com/user-attachments/assets/936022ac-2fac-4bc4-8db4-986c9b88c6fc)
+![dhv3](https://github.com/user-attachments/assets/cb6aa7f0-6734-4c0e-8210-18cbf24ed349)
+![dhv2](https://github.com/user-attachments/assets/20ba2ff3-0352-4732-acf2-e2862fbfe1da)
 
 -  📅 Project Category
 Machine Learning | Customer Segmentation | Data Analytics
